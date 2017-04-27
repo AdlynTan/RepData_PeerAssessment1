@@ -244,7 +244,7 @@ with (data,
              ylab="Number of steps",layout=c(2,1)))
 ```
 
-![plot of chunk unnamed-chunk-12](RepData_PeerAssessment1/unnamed-chunk-12-1.png)
+(RepData_PeerAssessment1/unnamed-chunk-12-1.png)
 
 In conclusion, there is only a small difference between these two periods. During weekdays, people move more actively in the day. 
 
