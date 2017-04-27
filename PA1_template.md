@@ -85,7 +85,7 @@ data<-activity%>%
 hist(data$dailyTotalSteps, col="blue",main="Histogram of Total Number of Steps Each Day", xlab="Sum of Steps per Day", ylab="Frequency")
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](/unnamed-chunk-3-1.png)
 
 3.Calculate and report the mean and median of the total number of steps taken per day
 
@@ -117,7 +117,7 @@ data<-activity %>%
 with(data,plot(interval,averageDailyAct,type="l",col="red",main="Average Daily Activity Pattern", xlab="5-min Interval", ylab="Average Steps"))
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-5](/unnamed-chunk-5-1.png)
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -185,7 +185,7 @@ data1<-data%>%
 hist(data1$dailyTotalSteps, col="pink",main="Histogram of Total Number of Steps Each Day", xlab="Total Numebr of Steps Each Day",ylab="Frequency")
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/unnamed-chunk-9-1.png)
 
 3 b)Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
